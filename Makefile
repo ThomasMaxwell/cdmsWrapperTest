@@ -87,6 +87,7 @@ clean:
 	@echo "Clean cdms module..."
 	@rm -f $(MSOBJECT)
 	@rm -f wrapperTest
+	@rm -f python/*.pyc
 
 # Show compile flags
 print_cflags:
